@@ -1,8 +1,9 @@
-import exampleTestFunction from '../src/js/biz-func.js';
+import PlanetCalculator  from '../src/js/biz-func.js';
 
-const exampleTestFunction = () => {
-  console.log('hi there, from the deck');
-  return 'hi there, from the deck';
-};
-
-export default exampleTestFunction;
+describe('PlanetCalculator', () => {
+  test('should take user age and calculate it to match age on another planet', () => {
+      const yearsCalculator = new PlanetCalculator(10)
+    expect(yearsCalculator.murcury()).toEqual(2.04);
+  });
+});
+// export default exampleTestFunction;
