@@ -1,8 +1,12 @@
 // import $ from 'jquery';
 
-const exampleTestFunction = () => {
-  console.log('hi there, from the deck');
-  return 'hi there, from the deck';
-};
+class PlanetCalculator {
+  planets(murcury){
+  this.murcury = murcury;
+  }
 
-export default exampleTestFunction;
+  () {
+    //Function body goes here.
+  }    
+}
+export default PlanetCalculator;
