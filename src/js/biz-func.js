@@ -1,12 +1,9 @@
-// import $ from 'jquery';
-
-class PlanetCalculator {
-  planets(murcury){
-  this.murcury = murcury;
+import $ from 'jquery';
+export default class PlanetCalculator{
+  constructor(personAge) {
+    this.mercury = personAge * .24;
+   
   }
 
-  () {
-    //Function body goes here.
-  }    
 }
-export default PlanetCalculator;
+
