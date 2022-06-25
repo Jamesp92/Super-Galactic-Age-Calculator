@@ -1,10 +1,10 @@
 import $ from 'jquery';
 export default class PlanetCalculator{
-  constructor(personAge) {
-    this.mercury = personAge * .24;
-    this.venus = personAge * .62;
-    this.mars = personAge * 1.88;
-    this.jupiter = personAge * 11.86;
+  constructor() {
+    this.mercury = .24;
+    this.venus = .62;
+    this.mars =  1.88;
+    this.jupiter =  11.86;
   }
 
 }
