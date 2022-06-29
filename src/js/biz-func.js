@@ -3,7 +3,6 @@ export default class PlanetCalculator{
   constructor(personAge) {
     this.maxLife = 70;
     this.personAge = personAge;
-    this.currentAge = this.mercury || this.venus || this.mars || this.jupiter;
     this.lifeExpect = this.maxLife - this.personAge;
     this.mercury = this.personAge *.24;
     this.venus = this.personAge * .62;
@@ -11,7 +10,9 @@ export default class PlanetCalculator{
     this.jupiter = this.personAge * 11.86;
   }
    lifeLeftOnJupiter(){
-    return this.lifeExpect * .24 ;
+   let currentAge =  this.jupiter;
+   let jupiteryearsLeft =currentAge - this.maxLife.toFixed(0);
+    return jupiteryearsLeft
    }
   }
 
