@@ -19,7 +19,7 @@ describe('PlanetCalculator', () => {
     });
     test('should tell user how much time they have left to live on each planet based on life expectancy', () => {
       const age = new PlanetCalculator(10)
-      expect(age.lifeExpectCalc()).toEqual(48.6);
+      expect(age.lifeLeftOnJupiter()).toEqual(48.6);
 
     });
 });
