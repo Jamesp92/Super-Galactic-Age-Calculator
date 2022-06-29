@@ -10,8 +10,8 @@ export default class PlanetCalculator{
     this.jupiter = this.personAge * 11.86;
   }
    lifeLeftOnJupiter(){
-   let currentAge =  this.jupiter;
-   let jupiteryearsLeft =currentAge - this.maxLife.toFixed(0);
+   let currentAge =  this.jupiter.toFixed(0);
+   let jupiteryearsLeft = currentAge - this.maxLife;
     return jupiteryearsLeft
    }
   }
