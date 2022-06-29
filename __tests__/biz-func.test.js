@@ -20,10 +20,10 @@ describe('PlanetCalculator', () => {
     test('should tell user how much time they have left to live on jupiter based on life expectancy', () => {
       const age = new PlanetCalculator(10)
       expect(age.lifeLeftOnJupiter()).toEqual(49);
-
+    });
       test('should tell user life expectancy on mercury', () => {
         const age = new PlanetCalculator(10)
-        expect(age.lifeLeftOnMercury()).toEqual(49);
-      });
+        expect(age.lifeLeftOnMercury()).toEqual(68);
+      
     });
-});
+})

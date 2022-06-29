@@ -14,6 +14,11 @@ export default class PlanetCalculator{
    let jupiteryearsLeft = currentAge - this.maxLife;
     return jupiteryearsLeft
    }
+   lifeLeftOnMercury(){
+    let currentAge =  this.mercury.toFixed(0);
+    let mercuryYearsLeft = currentAge - this.maxLife;
+     return mercuryYearsLeft
+    }
   }
 
 
