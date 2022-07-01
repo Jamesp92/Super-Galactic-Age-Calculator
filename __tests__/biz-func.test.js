@@ -7,11 +7,11 @@ describe('PlanetCalculator', () => {
   });
   test('should take user age and calculate it to match age on another planet', () => {
     const years = new PlanetCalculator(10)
-  expect(years.venus).toEqual(6.2);
+  expect(years.venus).toEqual();
  });
  test('should take user age and calculate it to match age on another planet', () => {
   const years = new PlanetCalculator(10)
-  expect(years.mars).toEqual(18.799999999999997);
+  expect(years.mars).toEqual(42);
   });
   test('should take user age and calculate it to match age on another planet', () => {
     const years = new PlanetCalculator(10)
