@@ -1,4 +1,3 @@
-import $ from 'jquery';
 export default class PlanetCalculator{
   constructor(personAge) {
     this.personAge = personAge;
@@ -10,7 +9,7 @@ export default class PlanetCalculator{
     this.mercuryLeft = (this.lifeExpect - this.mercury);
     this.venusLeft = (this.lifeExpect - this.venus);
     this.marsLeft = (this.lifeExpect - this.mars);
+    this.jupiterLeft = (this.lifeExpect - this.jupiter);
   }
-
 }
 
