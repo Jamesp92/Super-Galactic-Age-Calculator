@@ -12,7 +12,5 @@ export default class PlanetCalculator{
     this.marsLeft = (this.lifeExpect - this.mars);
   }
 
-
- 
 }
 

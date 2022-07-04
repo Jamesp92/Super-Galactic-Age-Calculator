@@ -17,16 +17,20 @@ describe('PlanetCalculator', () => {
       const years = new PlanetCalculator(10)
       expect(years.jupiter).toEqual(1);
    });
-   test('should calculate how much time lef on murcury', () => {
+   test('should calculate how much time left on murcury', () => {
     const years = new PlanetCalculator(10)
     expect(years.mercuryLeft).toEqual(29);
    });
-   test('should calculate how much time lef on venus', () => {
+   test('should calculate how much time left on venus', () => {
     const years = new PlanetCalculator(10)
     expect(years.venusLeft).toEqual(54);
   });
-  test('should calculate how much time lef on mars', () => {
+  test('should calculate how much time left on mars', () => {
     const years = new PlanetCalculator(10)
     expect(years.marsLeft).toEqual(65);
+  });
+  test('should calculate how much time left on jupiter', () => {
+    const years = new PlanetCalculator(10)
+    expect(years.jupiterLeft).toEqual(69);
   });
 })
