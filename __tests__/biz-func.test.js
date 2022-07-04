@@ -21,8 +21,12 @@ describe('PlanetCalculator', () => {
     const years = new PlanetCalculator(10)
     expect(years.mercuryLeft).toEqual(29);
    });
-   test('should calculate how much time lef on murcury', () => {
+   test('should calculate how much time lef on venus', () => {
     const years = new PlanetCalculator(10)
     expect(years.venusLeft).toEqual(54);
+  });
+  test('should calculate how much time lef on mars', () => {
+    const years = new PlanetCalculator(10)
+    expect(years.marsLeft).toEqual(75);
   });
 })
