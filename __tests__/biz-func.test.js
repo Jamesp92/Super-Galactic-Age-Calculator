@@ -23,6 +23,6 @@ describe('PlanetCalculator', () => {
    });
    test('should calculate how much time lef on murcury', () => {
     const years = new PlanetCalculator(10)
-    expect(years.mercuryLeft).toEqual(29);
-   });
+    expect(years.venusLeft).toEqual(54);
+  });
 })
