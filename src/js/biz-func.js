@@ -9,7 +9,7 @@ export default class PlanetCalculator{
     this.jupiter = Math.ceil((this.personAge /  11.86));
     this.mercuryLeft = (this.lifeExpect - this.mercury);
     this.venusLeft = (this.lifeExpect - this.venus);
-    
+    this.marsLeft = (this.lifeExpect - this.mars);
   }
 
 

@@ -27,6 +27,6 @@ describe('PlanetCalculator', () => {
   });
   test('should calculate how much time lef on mars', () => {
     const years = new PlanetCalculator(10)
-    expect(years.marsLeft).toEqual(75);
+    expect(years.marsLeft).toEqual(65);
   });
 })
