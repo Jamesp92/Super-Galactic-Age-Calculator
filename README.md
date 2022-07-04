@@ -1,31 +1,47 @@
-# (Application Name)
+# Super Galactic Age Calculator 
 
-#### (Brief Description of Application)
 
-#### By (Your Name Here)
 
-## Technologies Used
+_Author: PJ Perry_
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+## Summary:
 
-## Description
+week 5 epicodus project
 
-## Setup/Installation Requirements
+## Technologies used:
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+- HTML
+- CSS
+- boostrap
+- javascript
+- jquery
+- Jest
+- ESlint 6.3.0
+- HTML
+- Webpack 4.39.3 & Webpack dev server 3.8.0
+- Node.js
+- Dotenv webpack 2.0.0
 
-## Known Bugs
+## Description:
+accurately calculates users age on different planets , also tells user how much time they would have left to live based on a life expectancy of 70 years.
 
-* _Any known issues_
-* _should go here_
+## Setup/installation instructions:
 
-## License
+### 
+ * clone from repository
+ * find in your local directory 
+ * open in your local browser 
 
-## Contact Information
+
+## Known bugs:
+none yet .
+
+## License information with a copyright and date:
+
+Copyright <2022> < PJ Perry >
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
