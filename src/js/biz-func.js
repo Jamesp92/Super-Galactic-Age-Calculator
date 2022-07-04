@@ -7,9 +7,13 @@ export default class PlanetCalculator{
     this.venus = Math.floor((this.personAge /.62))
     this.mars =  Math.floor((this.personAge / 1.88))
     this.jupiter = Math.ceil((this.personAge /  11.86));
+    this.mercuryLeft = (this.lifeExpect - this.mercury);
   }
-}
 
- 
-  
+
+  // mercuryLife(){
+  // let mercuryLeft = (this.lifeExpect - this.mercury);
+  // return mercuryLeft;
+  // }
+}
 

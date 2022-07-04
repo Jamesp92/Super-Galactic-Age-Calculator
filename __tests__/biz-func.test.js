@@ -17,8 +17,12 @@ describe('PlanetCalculator', () => {
       const years = new PlanetCalculator(10)
       expect(years.jupiter).toEqual(1);
    });
-    test('should calculate how much time a user has left on planet based on life expectancy', () => {
-      const years = new PlanetCalculator(10)
-      expect(years.lifeExpect).toEqual(28);
- });
+   test('should calculate how much time lef on murcury', () => {
+    const years = new PlanetCalculator(10)
+    expect(years.mercuryLeft).toEqual(29);
+   });
+   test('should calculate how much time lef on murcury', () => {
+    const years = new PlanetCalculator(10)
+    expect(years.mercuryLeft).toEqual(29);
+   });
 })
